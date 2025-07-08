@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpha - Abhinav's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my pic.jpg" alt="Abhinav Tiwari" style="border-radius: 50%;" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Abhinav Tiwari">Abhinav Tiwari</h1>
+
+          <p class="title">Programmer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="abhii@example.com" class="contact-link">abhinavt00001@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">8755820021</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">September 28</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bewar,India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/echoabhinav/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/echoAbhinav" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/illuslikkt" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/echoabhinav" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificate</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello! I'm Abhinav Tiwari, a full stack web developer with a passion for creating intuitive and efficient web applications.
+            My dev journey started with curiosity and a browser tab — and since then, it’s been full throttle.
+            From basic web pages to backend logic, I’ve grown into a full-stack dev-in-progress who's currently cooking projects with:
+            React.js, Node.js, Express.js, MongoDB
+            Good old PHP + MySQL for classic backend vibes
+            Firebase for easy backend and auth setups
+            And dabbling in Python, C++, C, and Java to get my fundamentals tight
+            I’m also deep in the DSA grind, solving problems, breaking stuff, and learning how to think like an engineer, not just a coder.
+            What I’ve Been Up To:
+            Building real-world web apps with full-stack functionality,experimenting with authentication, form handling, and user flows
+            Trying out new tech, failing fast, and bouncing back faster.
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm Learning</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web Development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">
+                  Dynamic development of modern, responsive, and user-friendly websites and web applications using the latest technologies and best practices.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/prblm.png" alt="CS & Problem Solving icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem Solving</h4>
+                <p class="service-item-text">
+                  Building strong foundations in computer science concepts and sharpening my problem-solving skills through algorithms and coding challenges.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="AI-Enhanced Web Apps icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI-Enhanced Web Apps</h4>
+                <p class="service-item-text">
+                  Exploring the integration of artificial intelligence to create smarter, more interactive, and user-friendly web applications.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/learn.png" alt="Acquiring new skills" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Acquiring new skills</h4>
+                <p class="service-item-text">
+                  Mastering the art of managing multiple projects and tasks efficiently, while maintaining high productivity and quality.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+        <!-- Remove Power Skills section -->
+        
+        <!--
+          - clients
+        -->
+        <!-- Remove Skills section -->
+
+        <!--
+          - testimonials modal
+        -->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Abhinav Tiwari" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header class="resume-header-flex">
+          <h2 class="h2 article-title">Resume</h2>
+          <a href="./assets/images/AbhinavTiwariFinalResume.pdf" download class="resume-simple-btn">Download Resume (PDF)</a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lovely Professional University</h4>
+
+              <span>2023-2027</span>
+
+              <p class="timeline-text">
+                Pursuing BTech in Computer Science, 
+                passionate about designing, coding, algorithms, and creating innovative solutions for real-world problems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KP children's Academy</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Completed 12th from KMCA, 
+                eager to embark on the next educational journey with a focus on Btech CSE.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KP children's Academy</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Completed high school at KMCA in 2021-2022, 
+                now preparing for future academic pursuits and career aspirations.
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Accomplishments</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cipherthon Hackathon</h4>
+              <span>February 2024</span>
+              <p class="timeline-text">Secured 7th place.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BinaryBlitz Hackathon</h4>
+              <span>March 2024</span>
+              <p class="timeline-text">secured 5th place</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BinaryBlitz 2.O Hackathon</h4>
+              <span>November 2023</span>
+              <p class="timeline-text">Participated</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CodeKshetra Hackathon</h4>
+              <span>January 2024</span>
+              <p class="timeline-text">Participated</p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Skill Development</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Programming Languages</h4>
+              <p class="timeline-text">Python, C, C++, Java, JavaScript</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Development:</h4>
+              <p class="timeline-text">HTML, CSS, JavaScript, React.js, NodeJS, ExpressJS, MongoDB, Firebase, Next.js, Tailwind CSS</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Databases</h4>
+              <p class="timeline-text">MySQL,MongoDB</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Emerging Technologies</h4>
+              <p class="timeline-text">GenAI</p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Project</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lawease - Legal Support Platform</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Contributed to the development of accessible legal resources by simplifying legal content and integrating
+                Multilingual support for wider audience engagement.Enhanced user engagement and understanding through the
+                development of clear and concise legal explainer videos.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SPYDER - AI-Powered Web Security Platform</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Developed a full-stack security platform with real-time content moderation and threat detection, integrating
+                features like NSFW image/video scanning.
+                AI chatbot integration (Google Gemini), malware detection via VirusTotal API, and web vulnerability assessment.
+                Implemented secure authentication and built a responsive UI using React.js and Tailwind CSS.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PortfolioBuilder - Goal Tracking Portfolio Platform
+              </h4>
+
+              <span>2025</span>
+
+              <p class="timeline-text">
+                Developed a full-featured portfolio and goal-tracking system with secure user authentication, CRUD functionality
+                for projects, skill and achievement management. 
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">LeetCode Complexity Analyzer
+              </h4>
+
+              <span>2025</span>
+
+              <p class="timeline-text">
+                A smart extension that analyzes LeetCode code code and gives you time and space complexity insights using Gemini AI (Google’s LLM). Built using JavaScript, this tool parses your code input, sends it to the Gemini API, and returns a clean breakdown of the algorithm's performance.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ThreadSim – Multithreading Model Visualizer
+              </h4>
+
+              <span>2025</span>
+
+              <p class="timeline-text">
+                A visually interactive simulator that demonstrates how multithreading models work in operating systems, specifically focusing on Many-to-One (M:1) thread-to-core mapping. The project allows users to step through thread execution, observe CPU states, and analyze how threads are scheduled, managed, and terminated — all in real-time.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TravelBudget – Smart Travel Budget Calculator + AI Assistant
+              </h4>
+
+              <span>2025</span>
+
+              <p class="timeline-text">
+                A full-featured web app that helps users plan and manage their travel finances effortlessly, paired with an AI assistant for smart travel support. Users can input trip details, calculate expenses, and track savings — while the AI bot suggests destinations, flights, hotels, and tips. Built for travelers who love planning with precision.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+<!-- 
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web development</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python language</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C language</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JAVA</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data structure and algorithms</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MYSQL</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="project">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/multimodel.png" alt="LeetCode Complexity Analyser" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">ThreadSim – Multithreading Model Visualizer</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/leetcodeComplexityAnalyser.png" alt="LeetCode Complexity Analyser" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">LeetCode Complexity Analyser</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/portfoliobuilder.png" alt="PortfolioBuilder" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">PortfolioBuilder</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/spyder.png" alt="Spyder" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">SPYDER - AI-Powered Web Security Platform</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Lawease.png" alt="Lawease" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">Lawease - Legal Support Platform</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/global.png" alt="Global Warning" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">Global Warning And Its Measures</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/web1.png" alt="Global Warning" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">TravelBudget – Smart Travel Budget Calculator + AI Assistant</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/ct.png" alt="Stay tuned" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">Countdown Timer</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+             <li class="project-item  active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/RandomPW.png" alt="Random Password Generator" loading="lazy">
+                </figure>
+                <div class="project-content">
+                  <h3 class="project-title">Random Password Generator</h3>
+                  <p class="project-category">Web development</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #certificate
+      -->
+
+      <article class="certificate" data-page="certificate">
+
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+
+        <section class="certificate-posts">
+
+          <ul class="certificate-posts-list">
+            <li class="certificate-post-item">
+              <a href="#">
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/ForageCertificate_jpg.jpg" alt="Goldman Sachs Software Engineering Job Simulation Certificate" loading="lazy">
+                </figure>
+                <div class="certificate-content">
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Software Engineering Job Simulation</p>
+                    <span class="dot"></span>
+                  </div>
+                  <h3 class="h3 certificate-item-title">Goldman Sachs - Forage</h3>
+                  <p class="certificate-text">
+                    Completed the Software Engineering Job Simulation, including practical tasks like cracking a leaked password database. Issued January 2025.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="certificate-post-item">
+              <a href="#">
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/pythonCertijpg.jpg" alt="Sololearn Python Developer Certificate" loading="lazy">
+                </figure>
+                <div class="certificate-content">
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Python Developer</p>
+                    <span class="dot"></span>
+                  </div>
+                  <h3 class="h3 certificate-item-title">Sololearn</h3>
+                  <p class="certificate-text">
+                    Successfully completed the Python Developer course, demonstrating theoretical and practical understanding. Issued January 2025.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/certificate neocolab_page-0001.jpg" alt="Certificate for C language" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">C language</p>
+
+                    <span class="dot"></span>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title"></h3>
+
+                  <p class="certificate-text">
+                    Certification in C for completing various complex problems and logic building
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/js_page-0001.jpg" alt="Java script and react" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Java Script with React Js</p>
+                    <span class="dot"></span>
+                  </div>
+                  <h3 class="h3 certificate-item-title"></h3>
+
+                  <p class="certificate-text">
+                    Certificate for completing project with the help of Java script and it's library.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/hackathon.png" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Certificate of Participation</p>
+
+                    <span class="dot"></span>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title"></h3>
+
+                  <p class="certificate-text">
+                    Hackathon certificate, 
+                    showcasing my problem-solving skills and collaborative spirit in real-time coding challenges!
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cpp.jpg" alt="C++ Certificate" loading="lazy">
+                </figure>
+                <div class="certificate-content">
+                  <div class="certificate-meta">
+                    <p class="certificate-category">C++</p>
+                    <span class="dot"></span>
+                  </div>
+                  <h3 class="h3 certificate-item-title">C++ Programming</h3>
+                  <p class="certificate-text">
+                    Certification for demonstrating proficiency in C++ programming and problem-solving skills.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="certificate-post-item">
+              <a href="#">
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/java.jpg" alt="Java Certificate" loading="lazy">
+                </figure>
+                <div class="certificate-content">
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Java</p>
+                    <span class="dot"></span>
+                  </div>
+                  <h3 class="h3 certificate-item-title">Java Programming</h3>
+                  <p class="certificate-text">
+                    Certification for successfully completing Java programming coursework and projects.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="certificate-post-item">
+              <a href="#">
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/dsa.jpg" alt="DSA Certificate" loading="lazy">
+                </figure>
+                <div class="certificate-content">
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Data Structures & Algorithms</p>
+                    <span class="dot"></span>
+                  </div>
+                  <h3 class="h3 certificate-item-title">DSA</h3>
+                  <p class="certificate-text">
+                    Certification for mastering Data Structures and Algorithms concepts and applications.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+        <!-- - #CONTACT -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact Me</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4072.6134303393687!2d79.29593142919356!3d27.218401043035655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39758bf0f064aedd%3A0x1dfdc0a6cd54d164!2sBewar%2C%20Uttar%20Pradesh%20205301!5e0!3m2!1sen!2sin!4v1718885833446!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Message Me</h3>
+
+          <form action="https://formspree.io/f/xnnvkgjn" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+          <div id="thankyou-message" class="thankyou-message" style="display:none;">
+            <div class="thankyou-content">
+              <span class="thankyou-icon">🎉</span>
+              <h3>Thank you for your message!</h3>
+              <p>I got your message and will get back to you soon.</p>
+            </div>
+          </div>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+<!--  js link  -->
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Image Preview Modal -->
+  <div id="image-modal" class="image-modal" style="display:none;">
+    <span class="image-modal-close" id="image-modal-close">&times;</span>
+    <img class="image-modal-content" id="image-modal-img" src="" alt="Preview">
+  </div>
+
+</body>
+
+</html>
